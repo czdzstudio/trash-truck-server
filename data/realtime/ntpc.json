@@ -1,0 +1,31 @@
+{
+  "city": "ntpc",
+  "cityName": "新北市",
+  "tier": 1,
+  "fetchedAt": "2026-08-23T05:55:12.691Z",
+  "sourceUpdatedAt": null,
+  "vehicles": [
+    {
+      "normalized": {
+        "lineId": "251014",
+        "plateNumber": "KEU-3217",
+        "reportedAt": "2026-08-22T22:50:23+08:00",
+        "location": {
+          "lat": 25.1811616666667,
+          "lng": 121.419686666667,
+          "address": "新北市淡水區中正路二段18號"
+        }
+      },
+      "raw": {
+        "lineid": "251014",
+        "car": "KEU-3217",
+        "time": "2026/08/22 22:50:23",
+        "location": "新北市淡水區中正路二段18號",
+        "longitude": "121.419686666667",
+        "latitude": "25.1811616666667",
+        "cityid": "6501000",
+        "cityname": "淡水區"
+      }
+    }
+  ]
+}

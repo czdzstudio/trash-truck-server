@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-23T05:55:15.053Z",
+  "cities": {
+    "ntpc": {
+      "cityName": "新北市",
+      "tier": 1,
+      "updateFrequencyMinutes": 2,
+      "sourceDatasetUrl": "https://data.gov.tw/dataset/122972",
+      "licenseNote": "資料來源：新北市政府環境保護局（政府資料開放授權條款-第1版）",
+      "lastSuccessAt": "2026-08-23T05:55:12.693Z",
+      "lastFailureAt": null,
+      "lastFailureReason": null,
+      "recordCount": 1,
+      "latestSourceTime": "2026-08-22T22:50:23+08:00"
+    },
+    "taichung": {
+      "cityName": "台中市",
+      "tier": 1,
+      "updateFrequencyMinutes": 10,
+      "sourceDatasetUrl": "https://data.gov.tw/dataset/83558",
+      "licenseNote": "資料來源：臺中市政府環境保護局（政府資料開放授權條款-第1版）",
+      "lastSuccessAt": "2026-08-23T05:55:13.508Z",
+      "lastFailureAt": null,
+      "lastFailureReason": null,
+      "recordCount": 662,
+      "latestSourceTime": "2026-08-23T13:49:56+08:00"
+    },
+    "kcg": {
+      "cityName": "高雄市",
+      "tier": 1,
+      "updateFrequencyMinutes": 1,
+      "sourceDatasetUrl": "https://data.gov.tw/dataset/138256",
+      "licenseNote": "資料來源：高雄市政府環境保護局（政府資料開放授權條款-第1版）",
+      "lastSuccessAt": "2026-08-23T05:55:14.295Z",
+      "lastFailureAt": null,
+      "lastFailureReason": null,
+      "recordCount": 20,
+      "latestSourceTime": "2026-08-23T13:54:58+08:00"
+    },
+    "taipei": {
+      "cityName": "台北市",
+      "tier": 2,
+      "updateFrequencyMinutes": null,
+      "sourceDatasetUrl": "https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae",
+      "licenseNote": "資料來源：臺北市政府環境保護局（政府資料開放授權條款-第1版）",
+      "lastSuccessAt": "2026-08-23T05:55:15.053Z",
+      "lastFailureAt": null,
+      "lastFailureReason": null,
+      "recordCount": 4010,
+      "latestSourceTime": null
+    }
+  }
+}

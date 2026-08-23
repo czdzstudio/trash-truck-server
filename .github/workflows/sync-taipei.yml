@@ -1,0 +1,45 @@
+name: Sync Taipei (台北市固定班表)
+
+on:
+  schedule:
+    # Fixed schedule data changes rarely (data source is "不定期更新"); once a
+    # day is plenty. 18:00 UTC = 02:00 Taipei time, off-peak.
+    - cron: "0 18 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-taipei
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: node src/sync.js taipei
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/schedule/taipei.json data/status.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "sync: taipei $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin "$GITHUB_REF_NAME" && git push && exit 0
+            echo "Push attempt $attempt failed, retrying..."
+            sleep $((RANDOM % 10 + 2))
+          done
+          echo "Failed to push after retries" >&2
+          exit 1

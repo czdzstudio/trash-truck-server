@@ -1,0 +1,13 @@
+{
+  "name": "trash-truck-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static data sync scripts for the trash-truck app: fetches government open data and writes normalized JSON consumed via raw.githubusercontent.com.",
+  "scripts": {
+    "sync": "node src/sync.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
