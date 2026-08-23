@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:55:15.053Z",
+  "generatedAt": "2026-08-23T06:02:22.465Z",
   "cities": {
     "ntpc": {
       "cityName": "新北市",
@@ -7,7 +7,7 @@
       "updateFrequencyMinutes": 2,
       "sourceDatasetUrl": "https://data.gov.tw/dataset/122972",
       "licenseNote": "資料來源：新北市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-08-23T05:55:12.693Z",
+      "lastSuccessAt": "2026-08-23T06:02:22.465Z",
       "lastFailureAt": null,
       "lastFailureReason": null,
       "recordCount": 1,
