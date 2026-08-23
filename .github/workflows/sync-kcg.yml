@@ -24,22 +24,38 @@ jobs:
         with:
           node-version: "20"
 
-      - run: node src/sync.js kcg
-
-      - name: Commit and push if data changed
+      - name: Sync, commit and push
+        env:
+          CITY: kcg
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/realtime/kcg.json data/status.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "sync: kcg $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+          set +e
+          node src/sync.js "$CITY"
+          SYNC_EXIT=$?
+          set -e
+
           for attempt in 1 2 3 4 5; do
-            git pull --rebase origin "$GITHUB_REF_NAME" && git push && exit 0
-            echo "Push attempt $attempt failed, retrying..."
-            sleep $((RANDOM % 10 + 2))
+            git add "data/realtime/$CITY.json" data/status.json
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+              break
+            fi
+            git commit -m "sync: $CITY $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            if git push; then
+              break
+            fi
+            echo "Push attempt $attempt failed, re-fetching latest status.json and retrying..."
+            git reset --soft HEAD~1
+            git fetch origin "$GITHUB_REF_NAME"
+            git checkout "origin/$GITHUB_REF_NAME" -- data/status.json
+            node src/recordResult.js "$CITY"
+            sleep $((RANDOM % 8 + 2))
+            if [ "$attempt" = "5" ]; then
+              echo "Failed to push after retries" >&2
+              exit 1
+            fi
           done
-          echo "Failed to push after retries" >&2
-          exit 1
+
+          exit $SYNC_EXIT

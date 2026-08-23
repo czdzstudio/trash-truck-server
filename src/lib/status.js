@@ -24,12 +24,14 @@ export async function writeStatus(status) {
 }
 
 /**
- * Records the outcome of one city's sync into the shared status object.
- * `meta` carries the city's static description (name, tier, source url, license note);
- * only the fields that actually changed this run are updated.
+ * Merges one city's sync outcome into a status object (pure, in-place mutation
+ * of `status.cities[cityCode]`). Split out from recordCityResult so the CI retry
+ * path (src/recordResult.js) can re-apply the same result against a freshly
+ * pulled status.json without re-fetching the source API — status.json is shared
+ * across every city's independent GitHub Actions workflow, so this merge must be
+ * safe to replay against whatever the current committed state is.
  */
-export async function recordCityResult(cityCode, meta, result) {
-  const status = await readStatus();
+export function applyCityResult(status, cityCode, meta, result) {
   const existing = status.cities[cityCode] ?? {};
 
   const entry = {
@@ -41,14 +43,20 @@ export async function recordCityResult(cityCode, meta, result) {
   };
 
   if (result.ok) {
-    entry.lastSuccessAt = nowIso();
+    entry.lastSuccessAt = result.at ?? nowIso();
     entry.recordCount = result.recordCount ?? null;
     entry.latestSourceTime = result.latestSourceTime ?? null;
   } else {
-    entry.lastFailureAt = nowIso();
+    entry.lastFailureAt = result.at ?? nowIso();
     entry.lastFailureReason = result.reason ?? "UNKNOWN";
   }
 
   status.cities[cityCode] = entry;
+}
+
+/** Convenience for a single local run: read, merge, write in one go. */
+export async function recordCityResult(cityCode, meta, result) {
+  const status = await readStatus();
+  applyCityResult(status, cityCode, meta, { ...result, at: nowIso() });
   await writeStatus(status);
 }

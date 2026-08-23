@@ -1,29 +1,17 @@
 {
-  "generatedAt": "2026-08-23T06:03:08.324Z",
+  "generatedAt": "2026-08-23T06:07:27.820Z",
   "cities": {
-    "ntpc": {
-      "cityName": "新北市",
-      "tier": 1,
-      "updateFrequencyMinutes": 2,
-      "sourceDatasetUrl": "https://data.gov.tw/dataset/122972",
-      "licenseNote": "資料來源：新北市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-08-23T06:02:22.465Z",
-      "lastFailureAt": null,
-      "lastFailureReason": null,
-      "recordCount": 1,
-      "latestSourceTime": "2026-08-22T22:50:23+08:00"
-    },
     "taichung": {
       "cityName": "台中市",
       "tier": 1,
       "updateFrequencyMinutes": 10,
       "sourceDatasetUrl": "https://data.gov.tw/dataset/83558",
       "licenseNote": "資料來源：臺中市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-08-23T06:03:08.324Z",
+      "lastSuccessAt": "2026-08-23T06:07:21.506Z",
       "lastFailureAt": null,
       "lastFailureReason": null,
       "recordCount": 662,
-      "latestSourceTime": "2026-08-23T13:59:57+08:00"
+      "latestSourceTime": "2026-08-23T14:04:56+08:00"
     },
     "kcg": {
       "cityName": "高雄市",
@@ -31,11 +19,11 @@
       "updateFrequencyMinutes": 1,
       "sourceDatasetUrl": "https://data.gov.tw/dataset/138256",
       "licenseNote": "資料來源：高雄市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-08-23T05:55:14.295Z",
+      "lastSuccessAt": "2026-08-23T06:07:21.715Z",
       "lastFailureAt": null,
       "lastFailureReason": null,
       "recordCount": 20,
-      "latestSourceTime": "2026-08-23T13:54:58+08:00"
+      "latestSourceTime": "2026-08-23T14:06:54+08:00"
     },
     "taipei": {
       "cityName": "台北市",
@@ -43,11 +31,23 @@
       "updateFrequencyMinutes": null,
       "sourceDatasetUrl": "https://data.taipei/dataset/detail?id=6bb3304b-4f46-4bb0-8cd1-60c66dcd1cae",
       "licenseNote": "資料來源：臺北市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-08-23T05:55:15.053Z",
+      "lastSuccessAt": "2026-08-23T06:07:22.355Z",
       "lastFailureAt": null,
       "lastFailureReason": null,
       "recordCount": 4010,
       "latestSourceTime": null
+    },
+    "ntpc": {
+      "cityName": "新北市",
+      "tier": 1,
+      "updateFrequencyMinutes": 2,
+      "sourceDatasetUrl": "https://data.gov.tw/dataset/122972",
+      "licenseNote": "資料來源：新北市政府環境保護局（政府資料開放授權條款-第1版）",
+      "lastSuccessAt": "2026-08-23T06:07:20.506Z",
+      "lastFailureAt": null,
+      "lastFailureReason": null,
+      "recordCount": 1,
+      "latestSourceTime": "2026-08-22T22:50:23+08:00"
     }
   }
 }

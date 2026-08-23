@@ -1,24 +1,38 @@
+import { mkdir, writeFile } from "node:fs/promises";
 import * as ntpc from "./cities/ntpc.js";
 import * as taichung from "./cities/taichung.js";
 import * as kcg from "./cities/kcg.js";
 import * as taipei from "./cities/taipei.js";
 import { recordCityResult } from "./lib/status.js";
+import { RESULTS_DIR, resultPath } from "./lib/resultFile.js";
 
 const CITIES = { ntpc, taichung, kcg, taipei };
 
+async function saveResultFile(cityCode, result) {
+  await mkdir(RESULTS_DIR, { recursive: true });
+  await writeFile(resultPath(cityCode), JSON.stringify(result, null, 2) + "\n", "utf8");
+}
+
 async function syncOne(cityModule) {
   const { cityCode, meta } = cityModule;
+  const at = new Date().toISOString();
+  let result;
   try {
-    const result = await cityModule.sync();
-    await recordCityResult(cityCode, meta, result);
+    const outcome = await cityModule.sync();
+    result = { ...outcome, at };
     console.log(`[${cityCode}] ok — ${result.recordCount} records`);
-    return true;
   } catch (err) {
-    const reason = err.message || "UNKNOWN";
-    await recordCityResult(cityCode, meta, { ok: false, reason });
-    console.error(`[${cityCode}] FAILED — ${reason}`);
-    return false;
+    result = { ok: false, reason: err.message || "UNKNOWN", at };
+    console.error(`[${cityCode}] FAILED — ${result.reason}`);
   }
+
+  // Persisted separately from status.json so a CI retry (see src/recordResult.js)
+  // can re-apply this same outcome against a freshly pulled status.json after a
+  // push conflict, instead of re-hitting the source API.
+  await saveResultFile(cityCode, result);
+  await recordCityResult(cityCode, meta, result);
+
+  return result.ok;
 }
 
 async function main() {
@@ -38,9 +52,9 @@ async function main() {
   }
 
   // Exit non-zero only when a *requested* target failed, so GitHub Actions marks
-  // the run as failed and sends its built-in failure-notification email —
-  // while data/status.json above still records the failure without clobbering
-  // the last good data file for that city.
+  // the run as failed and sends its built-in failure-notification email — while
+  // data/status.json above still records the failure without clobbering the
+  // last good data file for that city.
   process.exit(allOk ? 0 : 1);
 }
 
