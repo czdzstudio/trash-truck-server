@@ -51,8 +51,8 @@ jobs:
               break
             fi
             echo "Push attempt $attempt failed, re-fetching latest status.json and retrying..."
-            git reset --soft HEAD~1
             git fetch origin "$GITHUB_REF_NAME"
+            git reset --soft "origin/$GITHUB_REF_NAME"
             git checkout "origin/$GITHUB_REF_NAME" -- data/status.json
             node src/recordResult.js "$CITY"
             backoff=$((attempt * 3))
