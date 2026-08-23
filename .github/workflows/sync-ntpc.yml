@@ -36,7 +36,7 @@ jobs:
           SYNC_EXIT=$?
           set -e
 
-          for attempt in 1 2 3 4 5; do
+          for attempt in 1 2 3 4 5 6 7 8; do
             git add "data/realtime/$CITY.json" data/status.json
             if git diff --staged --quiet; then
               echo "No changes to commit"
@@ -54,8 +54,10 @@ jobs:
             # result onto it — cheaper and safer than re-fetching the API.
             git checkout "origin/$GITHUB_REF_NAME" -- data/status.json
             node src/recordResult.js "$CITY"
-            sleep $((RANDOM % 8 + 2))
-            if [ "$attempt" = "5" ]; then
+            backoff=$((attempt * 3))
+            if [ "$backoff" -gt 20 ]; then backoff=20; fi
+            sleep $(( (RANDOM % backoff) + 1 ))
+            if [ "$attempt" = "8" ]; then
               echo "Failed to push after retries" >&2
               exit 1
             fi
