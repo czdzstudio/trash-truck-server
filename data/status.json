@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T06:02:22.465Z",
+  "generatedAt": "2026-08-23T06:03:08.324Z",
   "cities": {
     "ntpc": {
       "cityName": "新北市",
@@ -19,11 +19,11 @@
       "updateFrequencyMinutes": 10,
       "sourceDatasetUrl": "https://data.gov.tw/dataset/83558",
       "licenseNote": "資料來源：臺中市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-08-23T05:55:13.508Z",
+      "lastSuccessAt": "2026-08-23T06:03:08.324Z",
       "lastFailureAt": null,
       "lastFailureReason": null,
       "recordCount": 662,
-      "latestSourceTime": "2026-08-23T13:49:56+08:00"
+      "latestSourceTime": "2026-08-23T13:59:57+08:00"
     },
     "kcg": {
       "cityName": "高雄市",
