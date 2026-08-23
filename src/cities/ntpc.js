@@ -7,7 +7,7 @@ export const cityCode = "ntpc";
 export const meta = {
   cityName: "新北市",
   tier: 1,
-  updateFrequencyMinutes: 2,
+  updateFrequencyMinutes: 30,
   sourceDatasetUrl: "https://data.gov.tw/dataset/122972",
   licenseNote: "資料來源：新北市政府環境保護局（政府資料開放授權條款-第1版）",
 };

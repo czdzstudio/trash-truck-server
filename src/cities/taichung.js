@@ -7,7 +7,7 @@ export const cityCode = "taichung";
 export const meta = {
   cityName: "台中市",
   tier: 1,
-  updateFrequencyMinutes: 10,
+  updateFrequencyMinutes: 30,
   sourceDatasetUrl: "https://data.gov.tw/dataset/83558",
   licenseNote: "資料來源：臺中市政府環境保護局（政府資料開放授權條款-第1版）",
 };

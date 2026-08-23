@@ -2,9 +2,10 @@ name: Sync Taichung (台中市)
 
 on:
   schedule:
-    # Offset by 4 minutes so this never lands on the same minute as the NTPC
-    # (0,5,10,...) or KCG (2,7,12,...) schedules.
-    - cron: "4-59/10 * * * *"
+    # Pulled back to every 30 minutes (source itself updates every 10 min).
+    # Offset by 10 minutes so this never lands on the same minute as the
+    # NTPC (0,30) or KCG (5,35) schedules.
+    - cron: "10,40 * * * *"
   workflow_dispatch: {}
 
 permissions:

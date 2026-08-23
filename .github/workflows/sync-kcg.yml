@@ -2,10 +2,11 @@ name: Sync KCG (高雄市)
 
 on:
   schedule:
-    # Source updates roughly every minute; 5 minutes is the shortest interval
-    # GitHub Actions schedules reliably support. Offset by 2 minutes from the
-    # NTPC schedule so the two don't fire (and race to push) at the same minute.
-    - cron: "2-59/5 * * * *"
+    # Pulled back to every 30 minutes: this endpoint has been timing out
+    # (TCP connect timeout) when polled frequently from GitHub Actions —
+    # possibly a firewall on cloud-provider IP ranges. Offset by 5 minutes
+    # from NTPC so the two don't fire at the same minute.
+    - cron: "5,35 * * * *"
   workflow_dispatch: {}
 
 permissions:

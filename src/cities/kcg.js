@@ -7,7 +7,7 @@ export const cityCode = "kcg";
 export const meta = {
   cityName: "高雄市",
   tier: 1,
-  updateFrequencyMinutes: 1,
+  updateFrequencyMinutes: 30,
   sourceDatasetUrl: "https://data.gov.tw/dataset/138256",
   licenseNote: "資料來源：高雄市政府環境保護局（政府資料開放授權條款-第1版）",
 };

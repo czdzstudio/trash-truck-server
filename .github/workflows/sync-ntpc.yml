@@ -2,9 +2,9 @@ name: Sync NTPC (新北市)
 
 on:
   schedule:
-    # Source updates every 2 minutes; 5 minutes is the shortest interval
-    # GitHub Actions schedules reliably support.
-    - cron: "*/5 * * * *"
+    # Pulled back to every 30 minutes (source itself updates every 2 min)
+    # after KCG's API started timing out under frequent polling from CI.
+    - cron: "0,30 * * * *"
   workflow_dispatch: {}
 
 permissions:
