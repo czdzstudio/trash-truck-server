@@ -2,73 +2,51 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-24T02:44:56.289Z",
+  "fetchedAt": "2026-08-24T03:53:38.775Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "231008",
-        "plateNumber": "192-VK",
-        "reportedAt": "2026-08-24T10:43:50+08:00",
+        "lineId": "247003",
+        "plateNumber": "KEJ-3259",
+        "reportedAt": "2026-08-24T11:52:46+08:00",
         "location": {
-          "lat": 24.9529083333333,
-          "lng": 121.545705,
-          "address": "新北市新店區北宜路一段260號"
+          "lat": 25.0809133333333,
+          "lng": 121.448895,
+          "address": "新北市五股區中興路三段15號"
         }
       },
       "raw": {
-        "lineid": "231008",
-        "car": "192-VK",
-        "time": "2026/08/24 10:43:50",
-        "location": "新北市新店區北宜路一段260號",
-        "longitude": "121.545705",
-        "latitude": "24.9529083333333",
-        "cityid": "6500600",
-        "cityname": "新店區"
+        "lineid": "247003",
+        "car": "KEJ-3259",
+        "time": "2026/08/24 11:52:46",
+        "location": "新北市五股區中興路三段15號",
+        "longitude": "121.448895",
+        "latitude": "25.0809133333333",
+        "cityid": "6501400",
+        "cityname": "蘆洲區"
       }
     },
     {
       "normalized": {
         "lineId": "227003",
         "plateNumber": "KEU-5212",
-        "reportedAt": "2026-08-24T10:43:50+08:00",
+        "reportedAt": "2026-08-24T11:51:50+08:00",
         "location": {
-          "lat": 24.967555,
-          "lng": 121.821251666667,
-          "address": "新北市雙溪區泰平里溪尾寮46號"
+          "lat": 25.0023466666667,
+          "lng": 121.869048333333,
+          "address": "新北市雙溪區魚行里丁子蘭坑36號"
         }
       },
       "raw": {
         "lineid": "227003",
         "car": "KEU-5212",
-        "time": "2026/08/24 10:43:50",
-        "location": "新北市雙溪區泰平里溪尾寮46號",
-        "longitude": "121.821251666667",
-        "latitude": "24.967555",
+        "time": "2026/08/24 11:51:50",
+        "location": "新北市雙溪區魚行里丁子蘭坑36號",
+        "longitude": "121.869048333333",
+        "latitude": "25.0023466666667",
         "cityid": "6502500",
         "cityname": "雙溪區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "252006",
-        "plateNumber": "KEL-5006",
-        "reportedAt": "2026-08-24T10:43:53+08:00",
-        "location": {
-          "lat": 25.2646916666667,
-          "lng": 121.504505,
-          "address": "新北市三芝區埔坪里埔頭坑41號"
-        }
-      },
-      "raw": {
-        "lineid": "252006",
-        "car": "KEL-5006",
-        "time": "2026/08/24 10:43:53",
-        "location": "新北市三芝區埔坪里埔頭坑41號",
-        "longitude": "121.504505",
-        "latitude": "25.2646916666667",
-        "cityid": "6502100",
-        "cityname": "三芝區"
       }
     }
   ]
