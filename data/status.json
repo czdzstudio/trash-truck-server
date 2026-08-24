@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:53:06.489Z",
+  "generatedAt": "2026-08-24T13:07:26.813Z",
   "cities": {
     "taichung": {
       "cityName": "台中市",
@@ -20,7 +20,7 @@
       "sourceDatasetUrl": "https://data.gov.tw/dataset/138256",
       "licenseNote": "資料來源：高雄市政府環境保護局（政府資料開放授權條款-第1版）",
       "lastSuccessAt": "2026-08-23T06:07:21.715Z",
-      "lastFailureAt": "2026-08-24T11:38:05.352Z",
+      "lastFailureAt": "2026-08-24T13:07:26.813Z",
       "lastFailureReason": "FETCH_FAILED: Connect Timeout Error (attempted address: openapi.kcg.gov.tw:443, timeout: 10000ms)",
       "recordCount": 20,
       "latestSourceTime": "2026-08-23T14:06:54+08:00"
