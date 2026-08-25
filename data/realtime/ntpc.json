@@ -2,73 +2,557 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-25T03:47:58.126Z",
+  "fetchedAt": "2026-08-25T04:37:36.852Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "247003",
-        "plateNumber": "KEJ-3259",
-        "reportedAt": "2026-08-25T11:47:03+08:00",
+        "lineId": "234044",
+        "plateNumber": "KEQ-0336",
+        "reportedAt": "2026-08-25T12:36:52+08:00",
         "location": {
-          "lat": 25.0808916666667,
-          "lng": 121.448868333333,
-          "address": "新北市五股區中興路三段15號"
+          "lat": 25.001695,
+          "lng": 121.52253,
+          "address": "新北市永和區永元路68號"
         }
       },
       "raw": {
-        "lineid": "247003",
-        "car": "KEJ-3259",
-        "time": "2026/08/25 11:47:03",
-        "location": "新北市五股區中興路三段15號",
-        "longitude": "121.448868333333",
-        "latitude": "25.0808916666667",
-        "cityid": "6501400",
-        "cityname": "蘆洲區"
+        "lineid": "234044",
+        "car": "KEQ-0336",
+        "time": "2026/08/25 12:36:52",
+        "location": "新北市永和區永元路68號",
+        "longitude": "121.52253",
+        "latitude": "25.001695",
+        "cityid": "6500400",
+        "cityname": "永和區"
       }
     },
     {
       "normalized": {
-        "lineId": "227004",
-        "plateNumber": "KEU-5212",
-        "reportedAt": "2026-08-25T11:47:13+08:00",
+        "lineId": "234001",
+        "plateNumber": "KEU-6110",
+        "reportedAt": "2026-08-25T12:36:37+08:00",
         "location": {
-          "lat": 25.02606,
-          "lng": 121.891218333333,
-          "address": "新北市雙溪區魚行里內厝6號"
+          "lat": 25.0106566666667,
+          "lng": 121.524306666667,
+          "address": "新北市永和區環河東路二段92號"
         }
       },
       "raw": {
-        "lineid": "227004",
-        "car": "KEU-5212",
-        "time": "2026/08/25 11:47:13",
-        "location": "新北市雙溪區魚行里內厝6號",
-        "longitude": "121.891218333333",
-        "latitude": "25.02606",
-        "cityid": "6502500",
-        "cityname": "雙溪區"
+        "lineid": "234001",
+        "car": "KEU-6110",
+        "time": "2026/08/25 12:36:37",
+        "location": "新北市永和區環河東路二段92號",
+        "longitude": "121.524306666667",
+        "latitude": "25.0106566666667",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234040",
+        "plateNumber": "KEJ-6632",
+        "reportedAt": "2026-08-25T12:36:34+08:00",
+        "location": {
+          "lat": 25.00688,
+          "lng": 121.514483333333,
+          "address": "新北市永和區自由街16號"
+        }
+      },
+      "raw": {
+        "lineid": "234040",
+        "car": "KEJ-6632",
+        "time": "2026/08/25 12:36:34",
+        "location": "新北市永和區自由街16號",
+        "longitude": "121.514483333333",
+        "latitude": "25.00688",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234068",
+        "plateNumber": "KEE-1021",
+        "reportedAt": "2026-08-25T12:36:37+08:00",
+        "location": {
+          "lat": 25.0094833333333,
+          "lng": 121.525521666667,
+          "address": "新北市永和區福和路1號"
+        }
+      },
+      "raw": {
+        "lineid": "234068",
+        "car": "KEE-1021",
+        "time": "2026/08/25 12:36:37",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.525521666667",
+        "latitude": "25.0094833333333",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234062",
+        "plateNumber": "KEJ-6635",
+        "reportedAt": "2026-08-25T12:36:50+08:00",
+        "location": {
+          "lat": 25.01001,
+          "lng": 121.526488333333,
+          "address": "新北市永和區福和路1號"
+        }
+      },
+      "raw": {
+        "lineid": "234062",
+        "car": "KEJ-6635",
+        "time": "2026/08/25 12:36:50",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.526488333333",
+        "latitude": "25.01001",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234048",
+        "plateNumber": "KEJ-3260",
+        "reportedAt": "2026-08-25T12:36:34+08:00",
+        "location": {
+          "lat": 25.0091116666667,
+          "lng": 121.525661666667,
+          "address": "新北市永和區福和路1號"
+        }
+      },
+      "raw": {
+        "lineid": "234048",
+        "car": "KEJ-3260",
+        "time": "2026/08/25 12:36:34",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.525661666667",
+        "latitude": "25.0091116666667",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234015",
+        "plateNumber": "745-BX",
+        "reportedAt": "2026-08-25T12:36:49+08:00",
+        "location": {
+          "lat": 25.0106416666667,
+          "lng": 121.524155,
+          "address": "新北市永和區環河東路二段90號"
+        }
+      },
+      "raw": {
+        "lineid": "234015",
+        "car": "745-BX",
+        "time": "2026/08/25 12:36:49",
+        "location": "新北市永和區環河東路二段90號",
+        "longitude": "121.524155",
+        "latitude": "25.0106416666667",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234052",
+        "plateNumber": "KEA-2590",
+        "reportedAt": "2026-08-25T12:36:44+08:00",
+        "location": {
+          "lat": 25.0095283333333,
+          "lng": 121.526183333333,
+          "address": "新北市永和區福和路1號"
+        }
+      },
+      "raw": {
+        "lineid": "234052",
+        "car": "KEA-2590",
+        "time": "2026/08/25 12:36:44",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.526183333333",
+        "latitude": "25.0095283333333",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234084",
+        "plateNumber": "KEE-1022",
+        "reportedAt": "2026-08-25T12:36:42+08:00",
+        "location": {
+          "lat": 24.993895,
+          "lng": 121.512618333333,
+          "address": "新北市永和區中正路16號"
+        }
+      },
+      "raw": {
+        "lineid": "234084",
+        "car": "KEE-1022",
+        "time": "2026/08/25 12:36:42",
+        "location": "新北市永和區中正路16號",
+        "longitude": "121.512618333333",
+        "latitude": "24.993895",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234036",
+        "plateNumber": "KEG-2907",
+        "reportedAt": "2026-08-25T12:36:48+08:00",
+        "location": {
+          "lat": 25.0099283333333,
+          "lng": 121.526213333333,
+          "address": "新北市永和區福和路1號"
+        }
+      },
+      "raw": {
+        "lineid": "234036",
+        "car": "KEG-2907",
+        "time": "2026/08/25 12:36:48",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.526213333333",
+        "latitude": "25.0099283333333",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "234010",
+        "plateNumber": "BZZ-8712",
+        "reportedAt": "2026-08-25T12:36:41+08:00",
+        "location": {
+          "lat": 25.01093,
+          "lng": 121.504518333333,
+          "address": "新北市永和區保生路55-1號"
+        }
+      },
+      "raw": {
+        "lineid": "234010",
+        "car": "BZZ-8712",
+        "time": "2026/08/25 12:36:41",
+        "location": "新北市永和區保生路55-1號",
+        "longitude": "121.504518333333",
+        "latitude": "25.01093",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "231015",
+        "plateNumber": "108-UY",
+        "reportedAt": "2026-08-25T12:36:44+08:00",
+        "location": {
+          "lat": 24.9612533333333,
+          "lng": 121.519448333333,
+          "address": "新北市新店區安一路一段1-1號"
+        }
+      },
+      "raw": {
+        "lineid": "231015",
+        "car": "108-UY",
+        "time": "2026/08/25 12:36:44",
+        "location": "新北市新店區安一路一段1-1號",
+        "longitude": "121.519448333333",
+        "latitude": "24.9612533333333",
+        "cityid": "6500600",
+        "cityname": "新店區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "231004",
+        "plateNumber": "619-UM",
+        "reportedAt": "2026-08-25T12:36:44+08:00",
+        "location": {
+          "lat": 24.9609683333333,
+          "lng": 121.519618333333,
+          "address": "新北市新店區安一路一段1-1號"
+        }
+      },
+      "raw": {
+        "lineid": "231004",
+        "car": "619-UM",
+        "time": "2026/08/25 12:36:44",
+        "location": "新北市新店區安一路一段1-1號",
+        "longitude": "121.519618333333",
+        "latitude": "24.9609683333333",
+        "cityid": "6500600",
+        "cityname": "新店區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "231036",
+        "plateNumber": "KEV-0011",
+        "reportedAt": "2026-08-25T12:36:49+08:00",
+        "location": {
+          "lat": 24.9612816666667,
+          "lng": 121.51936,
+          "address": "新北市新店區安一路一段1-1號"
+        }
+      },
+      "raw": {
+        "lineid": "231036",
+        "car": "KEV-0011",
+        "time": "2026/08/25 12:36:49",
+        "location": "新北市新店區安一路一段1-1號",
+        "longitude": "121.51936",
+        "latitude": "24.9612816666667",
+        "cityid": "6500600",
+        "cityname": "新店區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "235031",
+        "plateNumber": "255-BX",
+        "reportedAt": "2026-08-25T12:35:54+08:00",
+        "location": {
+          "lat": 24.992745,
+          "lng": 121.485453333333,
+          "address": "新北市中和區員山路36巷16-8號"
+        }
+      },
+      "raw": {
+        "lineid": "235031",
+        "car": "255-BX",
+        "time": "2026/08/25 12:35:54",
+        "location": "新北市中和區員山路36巷16-8號",
+        "longitude": "121.485453333333",
+        "latitude": "24.992745",
+        "cityid": "6500300",
+        "cityname": "中和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "235018",
+        "plateNumber": "640-BX",
+        "reportedAt": "2026-08-25T12:36:46+08:00",
+        "location": {
+          "lat": 24.991615,
+          "lng": 121.485143333333,
+          "address": "新北市中和區員山路36巷16-2號"
+        }
+      },
+      "raw": {
+        "lineid": "235018",
+        "car": "640-BX",
+        "time": "2026/08/25 12:36:46",
+        "location": "新北市中和區員山路36巷16-2號",
+        "longitude": "121.485143333333",
+        "latitude": "24.991615",
+        "cityid": "6500300",
+        "cityname": "中和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "235001",
+        "plateNumber": "AAC-213",
+        "reportedAt": "2026-08-25T12:36:49+08:00",
+        "location": {
+          "lat": 24.9914516666667,
+          "lng": 121.484451666667,
+          "address": "新北市中和區員山路36巷16號"
+        }
+      },
+      "raw": {
+        "lineid": "235001",
+        "car": "AAC-213",
+        "time": "2026/08/25 12:36:49",
+        "location": "新北市中和區員山路36巷16號",
+        "longitude": "121.484451666667",
+        "latitude": "24.9914516666667",
+        "cityid": "6500300",
+        "cityname": "中和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "228004",
+        "plateNumber": "KEV-0712",
+        "reportedAt": "2026-08-25T12:36:44+08:00",
+        "location": {
+          "lat": 25.0097183333333,
+          "lng": 121.893125,
+          "address": "新北市貢寮區吉林里枋腳街2-10號"
+        }
+      },
+      "raw": {
+        "lineid": "228004",
+        "car": "KEV-0712",
+        "time": "2026/08/25 12:36:44",
+        "location": "新北市貢寮區吉林里枋腳街2-10號",
+        "longitude": "121.893125",
+        "latitude": "25.0097183333333",
+        "cityid": "6502600",
+        "cityname": "貢寮區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "228005",
+        "plateNumber": "663-BX",
+        "reportedAt": "2026-08-25T12:36:51+08:00",
+        "location": {
+          "lat": 24.986935,
+          "lng": 121.971591666667,
+          "address": "新北市貢寮區福連里蓬萊街18-1號"
+        }
+      },
+      "raw": {
+        "lineid": "228005",
+        "car": "663-BX",
+        "time": "2026/08/25 12:36:51",
+        "location": "新北市貢寮區福連里蓬萊街18-1號",
+        "longitude": "121.971591666667",
+        "latitude": "24.986935",
+        "cityid": "6502600",
+        "cityname": "貢寮區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "207002",
+        "plateNumber": "KEP-3727",
+        "reportedAt": "2026-08-25T12:36:35+08:00",
+        "location": {
+          "lat": 25.17097,
+          "lng": 121.66216,
+          "address": "新北市萬里區中幅里大湖路6-5號"
+        }
+      },
+      "raw": {
+        "lineid": "207002",
+        "car": "KEP-3727",
+        "time": "2026/08/25 12:36:35",
+        "location": "新北市萬里區中幅里大湖路6-5號",
+        "longitude": "121.66216",
+        "latitude": "25.17097",
+        "cityid": "6502800",
+        "cityname": "萬里區"
       }
     },
     {
       "normalized": {
         "lineId": "236012",
         "plateNumber": "913-UM",
-        "reportedAt": "2026-08-25T11:47:01+08:00",
+        "reportedAt": "2026-08-25T12:36:41+08:00",
         "location": {
-          "lat": 24.959135,
-          "lng": 121.427366666667,
+          "lat": 24.9592766666667,
+          "lng": 121.427393333333,
           "address": "新北市土城區永平街51號"
         }
       },
       "raw": {
         "lineid": "236012",
         "car": "913-UM",
-        "time": "2026/08/25 11:47:01",
+        "time": "2026/08/25 12:36:41",
         "location": "新北市土城區永平街51號",
-        "longitude": "121.427366666667",
-        "latitude": "24.959135",
+        "longitude": "121.427393333333",
+        "latitude": "24.9592766666667",
         "cityid": "6501300",
         "cityname": "土城區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "220108",
+        "plateNumber": "KEV-8230",
+        "reportedAt": "2026-08-25T12:36:51+08:00",
+        "location": {
+          "lat": 24.9949783333333,
+          "lng": 121.448286666667,
+          "address": "新北市板橋區華東街1-9號"
+        }
+      },
+      "raw": {
+        "lineid": "220108",
+        "car": "KEV-8230",
+        "time": "2026/08/25 12:36:51",
+        "location": "新北市板橋區華東街1-9號",
+        "longitude": "121.448286666667",
+        "latitude": "24.9949783333333",
+        "cityid": "6500100",
+        "cityname": "板橋區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "220052",
+        "plateNumber": "KEU-6125",
+        "reportedAt": "2026-08-25T12:36:52+08:00",
+        "location": {
+          "lat": 25.0198583333333,
+          "lng": 121.470316666667,
+          "address": "新北市板橋區民生路二段120號"
+        }
+      },
+      "raw": {
+        "lineid": "220052",
+        "car": "KEU-6125",
+        "time": "2026/08/25 12:36:52",
+        "location": "新北市板橋區民生路二段120號",
+        "longitude": "121.470316666667",
+        "latitude": "25.0198583333333",
+        "cityid": "6500100",
+        "cityname": "板橋區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "235025",
+        "plateNumber": "KEA-2875",
+        "reportedAt": "2026-08-25T12:36:34+08:00",
+        "location": {
+          "lat": 24.9918233333333,
+          "lng": 121.485326666667,
+          "address": "新北市中和區和城路一段271巷1號"
+        }
+      },
+      "raw": {
+        "lineid": "235025",
+        "car": "KEA-2875",
+        "time": "2026/08/25 12:36:34",
+        "location": "新北市中和區和城路一段271巷1號",
+        "longitude": "121.485326666667",
+        "latitude": "24.9918233333333",
+        "cityid": "6500300",
+        "cityname": "中和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "235015",
+        "plateNumber": "KEA-2876",
+        "reportedAt": "2026-08-25T12:36:51+08:00",
+        "location": {
+          "lat": 24.991455,
+          "lng": 121.485133333333,
+          "address": "新北市中和區員山路36巷16-2號"
+        }
+      },
+      "raw": {
+        "lineid": "235015",
+        "car": "KEA-2876",
+        "time": "2026/08/25 12:36:51",
+        "location": "新北市中和區員山路36巷16-2號",
+        "longitude": "121.485133333333",
+        "latitude": "24.991455",
+        "cityid": "6500300",
+        "cityname": "中和區"
       }
     }
   ]
