@@ -2,161 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-25T14:43:28.507Z",
+  "fetchedAt": "2026-08-25T15:40:50.620Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "235035",
         "plateNumber": "647-TV",
-        "reportedAt": "2026-08-25T22:42:00+08:00",
+        "reportedAt": "2026-08-25T23:30:40+08:00",
         "location": {
-          "lat": 24.9939116666667,
-          "lng": 121.505015,
-          "address": "新北市中和區景安路179-3號"
+          "lat": 24.987145,
+          "lng": 121.512055,
+          "address": "新北市中和區信義街97號"
         }
       },
       "raw": {
         "lineid": "235035",
         "car": "647-TV",
-        "time": "2026/08/25 22:42:00",
-        "location": "新北市中和區景安路179-3號",
-        "longitude": "121.505015",
-        "latitude": "24.9939116666667",
+        "time": "2026/08/25 23:30:40",
+        "location": "新北市中和區信義街97號",
+        "longitude": "121.512055",
+        "latitude": "24.987145",
         "cityid": "6500300",
         "cityname": "中和區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251015",
-        "plateNumber": "KEA-2871",
-        "reportedAt": "2026-08-25T22:42:10+08:00",
-        "location": {
-          "lat": 25.1811,
-          "lng": 121.419776666667,
-          "address": "新北市淡水區中正路二段18號"
-        }
-      },
-      "raw": {
-        "lineid": "251015",
-        "car": "KEA-2871",
-        "time": "2026/08/25 22:42:10",
-        "location": "新北市淡水區中正路二段18號",
-        "longitude": "121.419776666667",
-        "latitude": "25.1811",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251010",
-        "plateNumber": "413-VK",
-        "reportedAt": "2026-08-25T22:42:14+08:00",
-        "location": {
-          "lat": 25.1876266666667,
-          "lng": 121.422031666667,
-          "address": "新北市淡水區中正路二段131號"
-        }
-      },
-      "raw": {
-        "lineid": "251010",
-        "car": "413-VK",
-        "time": "2026/08/25 22:42:14",
-        "location": "新北市淡水區中正路二段131號",
-        "longitude": "121.422031666667",
-        "latitude": "25.1876266666667",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251006",
-        "plateNumber": "443-VK",
-        "reportedAt": "2026-08-25T22:42:01+08:00",
-        "location": {
-          "lat": 25.2077416666667,
-          "lng": 121.429055,
-          "address": "新北市淡水區下圭柔山91-4號"
-        }
-      },
-      "raw": {
-        "lineid": "251006",
-        "car": "443-VK",
-        "time": "2026/08/25 22:42:01",
-        "location": "新北市淡水區下圭柔山91-4號",
-        "longitude": "121.429055",
-        "latitude": "25.2077416666667",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251004",
-        "plateNumber": "KEU-5221",
-        "reportedAt": "2026-08-25T22:42:10+08:00",
-        "location": {
-          "lat": 25.1910983333333,
-          "lng": 121.425643333333,
-          "address": "新北市淡水區中正路二段397號"
-        }
-      },
-      "raw": {
-        "lineid": "251004",
-        "car": "KEU-5221",
-        "time": "2026/08/25 22:42:10",
-        "location": "新北市淡水區中正路二段397號",
-        "longitude": "121.425643333333",
-        "latitude": "25.1910983333333",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251003",
-        "plateNumber": "673-BX",
-        "reportedAt": "2026-08-25T22:41:59+08:00",
-        "location": {
-          "lat": 25.1878633333333,
-          "lng": 121.423271666667,
-          "address": "新北市淡水區中正路二段161號"
-        }
-      },
-      "raw": {
-        "lineid": "251003",
-        "car": "673-BX",
-        "time": "2026/08/25 22:41:59",
-        "location": "新北市淡水區中正路二段161號",
-        "longitude": "121.423271666667",
-        "latitude": "25.1878633333333",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251014",
-        "plateNumber": "KEU-3217",
-        "reportedAt": "2026-08-25T22:42:01+08:00",
-        "location": {
-          "lat": 25.18116,
-          "lng": 121.419681666667,
-          "address": "新北市淡水區中正路二段18號"
-        }
-      },
-      "raw": {
-        "lineid": "251014",
-        "car": "KEU-3217",
-        "time": "2026/08/25 22:42:01",
-        "location": "新北市淡水區中正路二段18號",
-        "longitude": "121.419681666667",
-        "latitude": "25.18116",
-        "cityid": "6501000",
-        "cityname": "淡水區"
       }
     }
   ]
