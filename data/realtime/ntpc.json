@@ -2,29 +2,51 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-26T19:02:18.616Z",
+  "fetchedAt": "2026-08-26T22:23:12.140Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "236012",
-        "plateNumber": "043-R5",
-        "reportedAt": "2026-08-26T22:06:45+08:00",
+        "lineId": "232014",
+        "plateNumber": "291-BY",
+        "reportedAt": "2026-08-27T06:21:51+08:00",
         "location": {
-          "lat": 24.959175,
-          "lng": 121.426963333333,
-          "address": "新北市土城區永平街50-1號"
+          "lat": 24.909295,
+          "lng": 121.718216666667,
+          "address": "新北市坪林區北宜路八段558號"
         }
       },
       "raw": {
-        "lineid": "236012",
-        "car": "043-R5",
-        "time": "2026/08/26 22:06:45",
-        "location": "新北市土城區永平街50-1號",
-        "longitude": "121.426963333333",
-        "latitude": "24.959175",
-        "cityid": "6501300",
-        "cityname": "土城區"
+        "lineid": "232014",
+        "car": "291-BY",
+        "time": "2026/08/27 06:21:51",
+        "location": "新北市坪林區北宜路八段558號",
+        "longitude": "121.718216666667",
+        "latitude": "24.909295",
+        "cityid": "6502000",
+        "cityname": "坪林區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "231051",
+        "plateNumber": "256-BX",
+        "reportedAt": "2026-08-27T06:21:41+08:00",
+        "location": {
+          "lat": 24.96402,
+          "lng": 121.51934,
+          "address": "新北市新店區安康路一段351-1號"
+        }
+      },
+      "raw": {
+        "lineid": "231051",
+        "car": "256-BX",
+        "time": "2026/08/27 06:21:41",
+        "location": "新北市新店區安康路一段351-1號",
+        "longitude": "121.51934",
+        "latitude": "24.96402",
+        "cityid": "6500600",
+        "cityname": "新店區"
       }
     }
   ]
