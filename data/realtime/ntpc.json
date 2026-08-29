@@ -2,27 +2,27 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-29T15:10:41.620Z",
+  "fetchedAt": "2026-08-29T18:45:15.059Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "241035",
         "plateNumber": "KEA-2210",
-        "reportedAt": "2026-08-29T23:09:51+08:00",
+        "reportedAt": "2026-08-29T23:59:51+08:00",
         "location": {
-          "lat": 24.9703716666667,
-          "lng": 121.412011666667,
-          "address": "新北市樹林區八德街272號"
+          "lat": 24.96575,
+          "lng": 121.381358333333,
+          "address": "新北市樹林區中山路三段210-2號"
         }
       },
       "raw": {
         "lineid": "241035",
         "car": "KEA-2210",
-        "time": "2026/08/29 23:09:51",
-        "location": "新北市樹林區八德街272號",
-        "longitude": "121.412011666667",
-        "latitude": "24.9703716666667",
+        "time": "2026/08/29 23:59:51",
+        "location": "新北市樹林區中山路三段210-2號",
+        "longitude": "121.381358333333",
+        "latitude": "24.96575",
         "cityid": "6500200",
         "cityname": "三重區"
       }
