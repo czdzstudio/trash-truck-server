@@ -2,29 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-30T09:45:45.823Z",
+  "fetchedAt": "2026-08-30T14:41:27.492Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "220101",
-        "plateNumber": "245-BX",
-        "reportedAt": "2026-08-30T14:54:07+08:00",
+        "lineId": "224010",
+        "plateNumber": "BWM-8121",
+        "reportedAt": "2026-08-30T20:33:25+08:00",
         "location": {
-          "lat": 25.0197666666667,
-          "lng": 121.470431666667,
-          "address": "新北市板橋區民生路二段120號"
+          "lat": 25.10858,
+          "lng": 121.810893333333,
+          "address": "新北市瑞芳區逢甲路72號"
         }
       },
       "raw": {
-        "lineid": "220101",
-        "car": "245-BX",
-        "time": "2026/08/30 14:54:07",
-        "location": "新北市板橋區民生路二段120號",
-        "longitude": "121.470431666667",
-        "latitude": "25.0197666666667",
-        "cityid": "6500100",
-        "cityname": "板橋區"
+        "lineid": "224010",
+        "car": "BWM-8121",
+        "time": "2026/08/30 20:33:25",
+        "location": "新北市瑞芳區逢甲路72號",
+        "longitude": "121.810893333333",
+        "latitude": "25.10858",
+        "cityid": "6501200",
+        "cityname": "瑞芳區"
       }
     }
   ]
