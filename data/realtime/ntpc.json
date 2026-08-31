@@ -2,7 +2,30 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-31T10:35:47.266Z",
+  "fetchedAt": "2026-08-31T17:54:18.820Z",
   "sourceUpdatedAt": null,
-  "vehicles": []
+  "vehicles": [
+    {
+      "normalized": {
+        "lineId": "235007",
+        "plateNumber": "352-BY",
+        "reportedAt": "2026-08-31T22:58:40+08:00",
+        "location": {
+          "lat": 24.9917966666667,
+          "lng": 121.4853,
+          "address": "新北市中和區員山路36巷16-2號"
+        }
+      },
+      "raw": {
+        "lineid": "235007",
+        "car": "352-BY",
+        "time": "2026/08/31 22:58:40",
+        "location": "新北市中和區員山路36巷16-2號",
+        "longitude": "121.4853",
+        "latitude": "24.9917966666667",
+        "cityid": "6500300",
+        "cityname": "中和區"
+      }
+    }
+  ]
 }
