@@ -2,30 +2,7 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-08-31T03:54:33.986Z",
+  "fetchedAt": "2026-08-31T10:35:47.266Z",
   "sourceUpdatedAt": null,
-  "vehicles": [
-    {
-      "normalized": {
-        "lineId": "227003",
-        "plateNumber": "KEU-5212",
-        "reportedAt": "2026-08-31T11:52:48+08:00",
-        "location": {
-          "lat": 25.008625,
-          "lng": 121.873986666667,
-          "address": "新北市雙溪區魚行里丁子蘭坑6號"
-        }
-      },
-      "raw": {
-        "lineid": "227003",
-        "car": "KEU-5212",
-        "time": "2026/08/31 11:52:48",
-        "location": "新北市雙溪區魚行里丁子蘭坑6號",
-        "longitude": "121.873986666667",
-        "latitude": "25.008625",
-        "cityid": "6502500",
-        "cityname": "雙溪區"
-      }
-    }
-  ]
+  "vehicles": []
 }
