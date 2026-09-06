@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T08:50:55.623Z",
+  "generatedAt": "2026-09-06T11:19:32.225Z",
   "cities": {
     "taichung": {
       "cityName": "台中市",
@@ -7,11 +7,11 @@
       "updateFrequencyMinutes": 30,
       "sourceDatasetUrl": "https://data.gov.tw/dataset/83558",
       "licenseNote": "資料來源：臺中市政府環境保護局（政府資料開放授權條款-第1版）",
-      "lastSuccessAt": "2026-09-06T06:29:15.984Z",
+      "lastSuccessAt": "2026-09-06T11:19:32.225Z",
       "lastFailureAt": null,
       "lastFailureReason": null,
       "recordCount": 662,
-      "latestSourceTime": "2026-09-06T14:24:54+08:00"
+      "latestSourceTime": "2026-09-06T19:14:53+08:00"
     },
     "kcg": {
       "cityName": "高雄市",
