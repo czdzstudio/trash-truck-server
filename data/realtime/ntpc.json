@@ -2,29 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-09-09T00:01:28.781Z",
+  "fetchedAt": "2026-09-09T04:59:28.810Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "220089",
-        "plateNumber": "283-UM",
-        "reportedAt": "2026-09-09T02:33:55+08:00",
+        "lineId": "236079",
+        "plateNumber": "KEJ-6630",
+        "reportedAt": "2026-09-09T09:56:09+08:00",
         "location": {
-          "lat": 25.0201583333333,
-          "lng": 121.469868333333,
-          "address": "新北市板橋區民生路二段175號"
+          "lat": 24.9797866666667,
+          "lng": 121.438618333333,
+          "address": "新北市土城區城林路6巷80號"
         }
       },
       "raw": {
-        "lineid": "220089",
-        "car": "283-UM",
-        "time": "2026/09/09 02:33:55",
-        "location": "新北市板橋區民生路二段175號",
-        "longitude": "121.469868333333",
-        "latitude": "25.0201583333333",
-        "cityid": "6500100",
-        "cityname": "板橋區"
+        "lineid": "236079",
+        "car": "KEJ-6630",
+        "time": "2026/09/09 09:56:09",
+        "location": "新北市土城區城林路6巷80號",
+        "longitude": "121.438618333333",
+        "latitude": "24.9797866666667",
+        "cityid": "6501300",
+        "cityname": "土城區"
       }
     }
   ]
