@@ -2,29 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-09-09T04:59:28.810Z",
+  "fetchedAt": "2026-09-09T09:34:58.694Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "236079",
-        "plateNumber": "KEJ-6630",
-        "reportedAt": "2026-09-09T09:56:09+08:00",
+        "lineId": "234012",
+        "plateNumber": "AAC-293",
+        "reportedAt": "2026-09-09T14:01:18+08:00",
         "location": {
-          "lat": 24.9797866666667,
-          "lng": 121.438618333333,
-          "address": "新北市土城區城林路6巷80號"
+          "lat": 25.0098716666667,
+          "lng": 121.52654,
+          "address": "新北市永和區福和路1號"
         }
       },
       "raw": {
-        "lineid": "236079",
-        "car": "KEJ-6630",
-        "time": "2026/09/09 09:56:09",
-        "location": "新北市土城區城林路6巷80號",
-        "longitude": "121.438618333333",
-        "latitude": "24.9797866666667",
-        "cityid": "6501300",
-        "cityname": "土城區"
+        "lineid": "234012",
+        "car": "AAC-293",
+        "time": "2026/09/09 14:01:18",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.52654",
+        "latitude": "25.0098716666667",
+        "cityid": "6500400",
+        "cityname": "永和區"
       }
     }
   ]
