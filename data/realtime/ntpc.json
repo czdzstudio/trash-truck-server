@@ -2,71 +2,27 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-09-10T14:51:03.634Z",
+  "fetchedAt": "2026-09-10T18:07:28.565Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "251010",
         "plateNumber": "KEV-0028",
-        "reportedAt": "2026-09-10T22:49:16+08:00",
+        "reportedAt": "2026-09-10T22:51:57+08:00",
         "location": {
-          "lat": 25.184315,
-          "lng": 121.42041,
-          "address": "新北市淡水區淡海路180巷12-2號"
+          "lat": 25.1810483333333,
+          "lng": 121.419321666667,
+          "address": "新北市淡水區中正路一段87巷8弄31-1號"
         }
       },
       "raw": {
         "lineid": "251010",
         "car": "KEV-0028",
-        "time": "2026/09/10 22:49:16",
-        "location": "新北市淡水區淡海路180巷12-2號",
-        "longitude": "121.42041",
-        "latitude": "25.184315",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251006",
-        "plateNumber": "443-VK",
-        "reportedAt": "2026-09-10T22:49:30+08:00",
-        "location": {
-          "lat": 25.1910116666667,
-          "lng": 121.430666666667,
-          "address": "新北市淡水區濱海路三段148巷50弄76號"
-        }
-      },
-      "raw": {
-        "lineid": "251006",
-        "car": "443-VK",
-        "time": "2026/09/10 22:49:30",
-        "location": "新北市淡水區濱海路三段148巷50弄76號",
-        "longitude": "121.430666666667",
-        "latitude": "25.1910116666667",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251016",
-        "plateNumber": "KEJ-6628",
-        "reportedAt": "2026-09-10T22:49:31+08:00",
-        "location": {
-          "lat": 25.18114,
-          "lng": 121.419726666667,
-          "address": "新北市淡水區中正路二段18號"
-        }
-      },
-      "raw": {
-        "lineid": "251016",
-        "car": "KEJ-6628",
-        "time": "2026/09/10 22:49:31",
-        "location": "新北市淡水區中正路二段18號",
-        "longitude": "121.419726666667",
-        "latitude": "25.18114",
+        "time": "2026/09/10 22:51:57",
+        "location": "新北市淡水區中正路一段87巷8弄31-1號",
+        "longitude": "121.419321666667",
+        "latitude": "25.1810483333333",
         "cityid": "6501000",
         "cityname": "淡水區"
       }
