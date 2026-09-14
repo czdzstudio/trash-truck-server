@@ -2,29 +2,73 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-09-14T19:02:31.050Z",
+  "fetchedAt": "2026-09-14T22:37:53.940Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "251008",
-        "plateNumber": "179-VK",
-        "reportedAt": "2026-09-14T22:56:00+08:00",
+        "lineId": "232013",
+        "plateNumber": "291-BY",
+        "reportedAt": "2026-09-15T06:35:54+08:00",
         "location": {
-          "lat": 25.1811883333333,
-          "lng": 121.419673333333,
-          "address": "新北市淡水區中正路二段18號"
+          "lat": 24.9095683333333,
+          "lng": 121.717953333333,
+          "address": "新北市坪林區北宜路八段558號"
         }
       },
       "raw": {
-        "lineid": "251008",
-        "car": "179-VK",
-        "time": "2026/09/14 22:56:00",
-        "location": "新北市淡水區中正路二段18號",
-        "longitude": "121.419673333333",
-        "latitude": "25.1811883333333",
-        "cityid": "6501000",
-        "cityname": "淡水區"
+        "lineid": "232013",
+        "car": "291-BY",
+        "time": "2026/09/15 06:35:54",
+        "location": "新北市坪林區北宜路八段558號",
+        "longitude": "121.717953333333",
+        "latitude": "24.9095683333333",
+        "cityid": "6502000",
+        "cityname": "坪林區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "231052",
+        "plateNumber": "256-BX",
+        "reportedAt": "2026-09-15T06:35:59+08:00",
+        "location": {
+          "lat": 24.9847,
+          "lng": 121.51892,
+          "address": "新北市新店區新和街33號"
+        }
+      },
+      "raw": {
+        "lineid": "231052",
+        "car": "256-BX",
+        "time": "2026/09/15 06:35:59",
+        "location": "新北市新店區新和街33號",
+        "longitude": "121.51892",
+        "latitude": "24.9847",
+        "cityid": "6500600",
+        "cityname": "新店區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "223007",
+        "plateNumber": "KEE-1105",
+        "reportedAt": "2026-09-15T06:35:43+08:00",
+        "location": {
+          "lat": 24.9828566666667,
+          "lng": 121.670843333333,
+          "address": "新北市石碇區小粗坑2號"
+        }
+      },
+      "raw": {
+        "lineid": "223007",
+        "car": "KEE-1105",
+        "time": "2026/09/15 06:35:43",
+        "location": "新北市石碇區小粗坑2號",
+        "longitude": "121.670843333333",
+        "latitude": "24.9828566666667",
+        "cityid": "6501900",
+        "cityname": "石碇區"
       }
     }
   ]
