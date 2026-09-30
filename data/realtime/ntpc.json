@@ -2,29 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-09-30T04:10:55.625Z",
+  "fetchedAt": "2026-09-30T10:38:49.344Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "235071",
-        "plateNumber": "911-UM",
-        "reportedAt": "2026-09-30T07:49:47+08:00",
+        "lineId": "239006",
+        "plateNumber": "KEL-6152",
+        "reportedAt": "2026-09-30T16:38:28+08:00",
         "location": {
-          "lat": 24.9921683333333,
-          "lng": 121.485531666667,
-          "address": "新北市中和區和城路一段271巷1號"
+          "lat": 24.9532616666667,
+          "lng": 121.341923333333,
+          "address": "新北市鶯歌區永樂街22號"
         }
       },
       "raw": {
-        "lineid": "235071",
-        "car": "911-UM",
-        "time": "2026/09/30 07:49:47",
-        "location": "新北市中和區和城路一段271巷1號",
-        "longitude": "121.485531666667",
-        "latitude": "24.9921683333333",
-        "cityid": "6500300",
-        "cityname": "中和區"
+        "lineid": "239006",
+        "car": "KEL-6152",
+        "time": "2026/09/30 16:38:28",
+        "location": "新北市鶯歌區永樂街22號",
+        "longitude": "121.341923333333",
+        "latitude": "24.9532616666667",
+        "cityid": "6500800",
+        "cityname": "鶯歌區"
       }
     }
   ]
