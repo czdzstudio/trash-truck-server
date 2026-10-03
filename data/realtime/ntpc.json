@@ -2,27 +2,27 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-03T15:11:40.801Z",
+  "fetchedAt": "2026-10-03T18:46:35.013Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "235001",
         "plateNumber": "647-TV",
-        "reportedAt": "2026-10-03T23:09:59+08:00",
+        "reportedAt": "2026-10-03T23:59:17+08:00",
         "location": {
-          "lat": 24.9898216666667,
-          "lng": 121.50939,
-          "address": "新北市中和區捷運路10號"
+          "lat": 24.95891,
+          "lng": 121.499593333333,
+          "address": "新北市新店區薏仁坑路8-3號"
         }
       },
       "raw": {
         "lineid": "235001",
         "car": "647-TV",
-        "time": "2026/10/03 23:09:59",
-        "location": "新北市中和區捷運路10號",
-        "longitude": "121.50939",
-        "latitude": "24.9898216666667",
+        "time": "2026/10/03 23:59:17",
+        "location": "新北市新店區薏仁坑路8-3號",
+        "longitude": "121.499593333333",
+        "latitude": "24.95891",
         "cityid": "6500300",
         "cityname": "中和區"
       }
