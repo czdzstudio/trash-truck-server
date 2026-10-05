@@ -2,7 +2,7 @@
   "city": "taipei",
   "cityName": "台北市",
   "tier": 2,
-  "generatedAt": "2026-10-04T20:32:50.297Z",
+  "generatedAt": "2026-10-05T23:24:15.406Z",
   "stops": [
     {
       "normalized": {
@@ -58507,7 +58507,7 @@
     {
       "normalized": {
         "district": "內湖區",
-        "village": "瑞元里",
+        "village": "湖元里",
         "routeId": "104-087",
         "plateNumber": "AAB-279",
         "tripNumber": "第3車",
@@ -58521,7 +58521,7 @@
       },
       "raw": {
         "行政區": "內湖區",
-        "里別": "瑞元里",
+        "里別": "湖元里",
         "分隊": "文德分隊",
         "局編": "104-087",
         "車號": "AAB-279",
