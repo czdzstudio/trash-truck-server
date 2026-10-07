@@ -2,51 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-07T11:31:54.022Z",
+  "fetchedAt": "2026-10-07T18:28:50.322Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "224011",
         "plateNumber": "BWM-8121",
-        "reportedAt": "2026-10-07T19:30:13+08:00",
+        "reportedAt": "2026-10-07T20:35:13+08:00",
         "location": {
-          "lat": 25.1098416666667,
-          "lng": 121.845145,
-          "address": "新北市瑞芳區汽車路9-7號"
+          "lat": 25.1079583333333,
+          "lng": 121.811915,
+          "address": "新北市瑞芳區明燈路二段15號"
         }
       },
       "raw": {
         "lineid": "224011",
         "car": "BWM-8121",
-        "time": "2026/10/07 19:30:13",
-        "location": "新北市瑞芳區汽車路9-7號",
-        "longitude": "121.845145",
-        "latitude": "25.1098416666667",
+        "time": "2026/10/07 20:35:13",
+        "location": "新北市瑞芳區明燈路二段15號",
+        "longitude": "121.811915",
+        "latitude": "25.1079583333333",
         "cityid": "6501200",
         "cityname": "瑞芳區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "235057",
-        "plateNumber": "KEU-6091",
-        "reportedAt": "2026-10-07T19:30:10+08:00",
-        "location": {
-          "lat": 24.9959383333333,
-          "lng": 121.490963333333,
-          "address": "新北市中和區中正路432巷34號"
-        }
-      },
-      "raw": {
-        "lineid": "235057",
-        "car": "KEU-6091",
-        "time": "2026/10/07 19:30:10",
-        "location": "新北市中和區中正路432巷34號",
-        "longitude": "121.490963333333",
-        "latitude": "24.9959383333333",
-        "cityid": "6500300",
-        "cityname": "中和區"
       }
     }
   ]
