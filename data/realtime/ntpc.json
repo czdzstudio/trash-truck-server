@@ -2,181 +2,71 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-15T23:37:36.933Z",
+  "fetchedAt": "2026-10-16T03:19:07.685Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "232008",
-        "plateNumber": "290-BY",
-        "reportedAt": "2026-10-16T07:36:51+08:00",
+        "lineId": "244004",
+        "plateNumber": "KEV-0025",
+        "reportedAt": "2026-10-16T11:18:03+08:00",
         "location": {
-          "lat": 24.90782,
-          "lng": 121.70437,
-          "address": "新北市坪林區應諂14-1號"
+          "lat": 25.09074,
+          "lng": 121.405176666667,
+          "address": "新北市林口區粉寮路二段160巷28號"
         }
       },
       "raw": {
-        "lineid": "232008",
-        "car": "290-BY",
-        "time": "2026/10/16 07:36:51",
-        "location": "新北市坪林區應諂14-1號",
-        "longitude": "121.70437",
-        "latitude": "24.90782",
-        "cityid": "6502000",
-        "cityname": "坪林區"
+        "lineid": "244004",
+        "car": "KEV-0025",
+        "time": "2026/10/16 11:18:03",
+        "location": "新北市林口區粉寮路二段160巷28號",
+        "longitude": "121.405176666667",
+        "latitude": "25.09074",
+        "cityid": "6501700",
+        "cityname": "林口區"
       }
     },
     {
       "normalized": {
-        "lineId": "232015",
-        "plateNumber": "291-BY",
-        "reportedAt": "2026-10-16T07:36:50+08:00",
+        "lineId": "247003",
+        "plateNumber": "KEJ-3259",
+        "reportedAt": "2026-10-16T11:18:09+08:00",
         "location": {
-          "lat": 24.9347883333333,
-          "lng": 121.688466666667,
-          "address": "新北市坪林區黃舉皮寮14-1號"
+          "lat": 25.0807783333333,
+          "lng": 121.449003333333,
+          "address": "新北市五股區中興路三段3-2號"
         }
       },
       "raw": {
-        "lineid": "232015",
-        "car": "291-BY",
-        "time": "2026/10/16 07:36:50",
-        "location": "新北市坪林區黃舉皮寮14-1號",
-        "longitude": "121.688466666667",
-        "latitude": "24.9347883333333",
-        "cityid": "6502000",
-        "cityname": "坪林區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "232019",
-        "plateNumber": "758-BX",
-        "reportedAt": "2026-10-16T07:36:49+08:00",
-        "location": {
-          "lat": 24.9768883333333,
-          "lng": 121.741508333333,
-          "address": "新北市坪林區乾溪1號"
-        }
-      },
-      "raw": {
-        "lineid": "232019",
-        "car": "758-BX",
-        "time": "2026/10/16 07:36:49",
-        "location": "新北市坪林區乾溪1號",
-        "longitude": "121.741508333333",
-        "latitude": "24.9768883333333",
-        "cityid": "6502000",
-        "cityname": "坪林區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "222004",
-        "plateNumber": "289-BY",
-        "reportedAt": "2026-10-16T07:36:47+08:00",
-        "location": {
-          "lat": 25.00123,
-          "lng": 121.61893,
-          "address": "新北市深坑區文化街39巷1號"
-        }
-      },
-      "raw": {
-        "lineid": "222004",
-        "car": "289-BY",
-        "time": "2026/10/16 07:36:47",
-        "location": "新北市深坑區文化街39巷1號",
-        "longitude": "121.61893",
-        "latitude": "25.00123",
-        "cityid": "6501800",
-        "cityname": "深坑區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "223007",
-        "plateNumber": "KEE-1105",
-        "reportedAt": "2026-10-16T07:37:01+08:00",
-        "location": {
-          "lat": 25.015975,
-          "lng": 121.69858,
-          "address": "新北市石碇區大湖格22-2號"
-        }
-      },
-      "raw": {
-        "lineid": "223007",
-        "car": "KEE-1105",
-        "time": "2026/10/16 07:37:01",
-        "location": "新北市石碇區大湖格22-2號",
-        "longitude": "121.69858",
-        "latitude": "25.015975",
-        "cityid": "6501900",
-        "cityname": "石碇區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "223001",
-        "plateNumber": "437-BY",
-        "reportedAt": "2026-10-16T07:37:04+08:00",
-        "location": {
-          "lat": 24.972745,
-          "lng": 121.655905,
-          "address": "新北市石碇區烏塗窟46-1號"
-        }
-      },
-      "raw": {
-        "lineid": "223001",
-        "car": "437-BY",
-        "time": "2026/10/16 07:37:04",
-        "location": "新北市石碇區烏塗窟46-1號",
-        "longitude": "121.655905",
-        "latitude": "24.972745",
-        "cityid": "6501900",
-        "cityname": "石碇區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "223004",
-        "plateNumber": "KEU-3232",
-        "reportedAt": "2026-10-16T07:36:58+08:00",
-        "location": {
-          "lat": 25.01441,
-          "lng": 121.644811666667,
-          "address": "新北市石碇區八分寮35-1號"
-        }
-      },
-      "raw": {
-        "lineid": "223004",
-        "car": "KEU-3232",
-        "time": "2026/10/16 07:36:58",
-        "location": "新北市石碇區八分寮35-1號",
-        "longitude": "121.644811666667",
-        "latitude": "25.01441",
-        "cityid": "6501900",
-        "cityname": "石碇區"
+        "lineid": "247003",
+        "car": "KEJ-3259",
+        "time": "2026/10/16 11:18:09",
+        "location": "新北市五股區中興路三段3-2號",
+        "longitude": "121.449003333333",
+        "latitude": "25.0807783333333",
+        "cityid": "6501400",
+        "cityname": "蘆洲區"
       }
     },
     {
       "normalized": {
         "lineId": "227003",
         "plateNumber": "KEU-5212",
-        "reportedAt": "2026-10-16T07:36:47+08:00",
+        "reportedAt": "2026-10-16T11:18:07+08:00",
         "location": {
-          "lat": 25.0355116666667,
-          "lng": 121.864833333333,
-          "address": "新北市雙溪區雙溪里太平路56號"
+          "lat": 25.01804,
+          "lng": 121.86219,
+          "address": "新北市雙溪區魚行里丁子蘭坑17號"
         }
       },
       "raw": {
         "lineid": "227003",
         "car": "KEU-5212",
-        "time": "2026/10/16 07:36:47",
-        "location": "新北市雙溪區雙溪里太平路56號",
-        "longitude": "121.864833333333",
-        "latitude": "25.0355116666667",
+        "time": "2026/10/16 11:18:07",
+        "location": "新北市雙溪區魚行里丁子蘭坑17號",
+        "longitude": "121.86219",
+        "latitude": "25.01804",
         "cityid": "6502500",
         "cityname": "雙溪區"
       }
