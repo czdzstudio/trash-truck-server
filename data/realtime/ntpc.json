@@ -2,51 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-18T03:12:30.562Z",
+  "fetchedAt": "2026-10-18T08:14:52.495Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "251010",
-        "plateNumber": "413-VK",
-        "reportedAt": "2026-10-17T22:50:17+08:00",
+        "lineId": "241024",
+        "plateNumber": "147-BY",
+        "reportedAt": "2026-10-18T14:19:45+08:00",
         "location": {
-          "lat": 25.18103,
-          "lng": 121.419318333333,
-          "address": "新北市淡水區中正路一段87巷8弄31-1號"
+          "lat": 25.0520166666667,
+          "lng": 121.484876666667,
+          "address": "新北市三重區重新路四段121號"
         }
       },
       "raw": {
-        "lineid": "251010",
-        "car": "413-VK",
-        "time": "2026/10/17 22:50:17",
-        "location": "新北市淡水區中正路一段87巷8弄31-1號",
-        "longitude": "121.419318333333",
-        "latitude": "25.18103",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251010",
-        "plateNumber": "KEJ-6628",
-        "reportedAt": "2026-10-17T22:50:14+08:00",
-        "location": {
-          "lat": 25.1812716666667,
-          "lng": 121.419233333333,
-          "address": "新北市淡水區中正路一段87巷8弄31-1號"
-        }
-      },
-      "raw": {
-        "lineid": "251010",
-        "car": "KEJ-6628",
-        "time": "2026/10/17 22:50:14",
-        "location": "新北市淡水區中正路一段87巷8弄31-1號",
-        "longitude": "121.419233333333",
-        "latitude": "25.1812716666667",
-        "cityid": "6501000",
-        "cityname": "淡水區"
+        "lineid": "241024",
+        "car": "147-BY",
+        "time": "2026/10/18 14:19:45",
+        "location": "新北市三重區重新路四段121號",
+        "longitude": "121.484876666667",
+        "latitude": "25.0520166666667",
+        "cityid": "6500200",
+        "cityname": "三重區"
       }
     }
   ]
