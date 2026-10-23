@@ -2,29 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-23T01:14:03.538Z",
+  "fetchedAt": "2026-10-23T06:17:36.125Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "241024",
-        "plateNumber": "462-BY",
-        "reportedAt": "2026-10-22T22:50:41+08:00",
+        "lineId": "235046",
+        "plateNumber": "399-BY",
+        "reportedAt": "2026-10-23T14:15:46+08:00",
         "location": {
-          "lat": 25.0525083333333,
-          "lng": 121.484793333333,
-          "address": "新北市三重區重新路四段121號"
+          "lat": 24.9971966666667,
+          "lng": 121.483693333333,
+          "address": "新北市中和區新生街264號"
         }
       },
       "raw": {
-        "lineid": "241024",
-        "car": "462-BY",
-        "time": "2026/10/22 22:50:41",
-        "location": "新北市三重區重新路四段121號",
-        "longitude": "121.484793333333",
-        "latitude": "25.0525083333333",
-        "cityid": "6500200",
-        "cityname": "三重區"
+        "lineid": "235046",
+        "car": "399-BY",
+        "time": "2026/10/23 14:15:46",
+        "location": "新北市中和區新生街264號",
+        "longitude": "121.483693333333",
+        "latitude": "24.9971966666667",
+        "cityid": "6500300",
+        "cityname": "中和區"
       }
     }
   ]
