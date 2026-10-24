@@ -2,27 +2,27 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-23T23:18:56.272Z",
+  "fetchedAt": "2026-10-24T01:48:21.980Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "252007",
         "plateNumber": "KEL-5006",
-        "reportedAt": "2026-10-24T07:18:02+08:00",
+        "reportedAt": "2026-10-24T09:47:42+08:00",
         "location": {
-          "lat": 25.2416266666667,
-          "lng": 121.50085,
-          "address": "新北市三芝區福德里埔尾9-11號"
+          "lat": 25.2780766666667,
+          "lng": 121.507185,
+          "address": "新北市三芝區新庄里新庄子51-46號"
         }
       },
       "raw": {
         "lineid": "252007",
         "car": "KEL-5006",
-        "time": "2026/10/24 07:18:02",
-        "location": "新北市三芝區福德里埔尾9-11號",
-        "longitude": "121.50085",
-        "latitude": "25.2416266666667",
+        "time": "2026/10/24 09:47:42",
+        "location": "新北市三芝區新庄里新庄子51-46號",
+        "longitude": "121.507185",
+        "latitude": "25.2780766666667",
         "cityid": "6502100",
         "cityname": "三芝區"
       }
