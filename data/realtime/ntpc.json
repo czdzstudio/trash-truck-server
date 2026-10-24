@@ -2,29 +2,51 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-24T21:02:56.991Z",
+  "fetchedAt": "2026-10-24T23:31:23.216Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "241001",
-        "plateNumber": "KEG-2057",
-        "reportedAt": "2026-10-24T22:49:12+08:00",
+        "lineId": "223007",
+        "plateNumber": "KEE-1105",
+        "reportedAt": "2026-10-25T07:30:19+08:00",
         "location": {
-          "lat": 25.0518916666667,
-          "lng": 121.484955,
-          "address": "新北市三重區重新路四段121號"
+          "lat": 25.0054483333333,
+          "lng": 121.691671666667,
+          "address": "新北市石碇區靜安路一段292巷8號"
         }
       },
       "raw": {
-        "lineid": "241001",
-        "car": "KEG-2057",
-        "time": "2026/10/24 22:49:12",
-        "location": "新北市三重區重新路四段121號",
-        "longitude": "121.484955",
-        "latitude": "25.0518916666667",
-        "cityid": "6500200",
-        "cityname": "三重區"
+        "lineid": "223007",
+        "car": "KEE-1105",
+        "time": "2026/10/25 07:30:19",
+        "location": "新北市石碇區靜安路一段292巷8號",
+        "longitude": "121.691671666667",
+        "latitude": "25.0054483333333",
+        "cityid": "6501900",
+        "cityname": "石碇區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "223004",
+        "plateNumber": "KEU-3232",
+        "reportedAt": "2026-10-25T07:30:15+08:00",
+        "location": {
+          "lat": 25.01596,
+          "lng": 121.647578333333,
+          "address": "新北市石碇區新興坑31號"
+        }
+      },
+      "raw": {
+        "lineid": "223004",
+        "car": "KEU-3232",
+        "time": "2026/10/25 07:30:15",
+        "location": "新北市石碇區新興坑31號",
+        "longitude": "121.647578333333",
+        "latitude": "25.01596",
+        "cityid": "6501900",
+        "cityname": "石碇區"
       }
     }
   ]
