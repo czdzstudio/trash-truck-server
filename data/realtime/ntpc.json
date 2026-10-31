@@ -2,14 +2,14 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-10-31T15:04:02.437Z",
+  "fetchedAt": "2026-10-31T19:26:47.578Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
         "lineId": "251003",
         "plateNumber": "KEU-3217",
-        "reportedAt": "2026-10-31T23:02:43+08:00",
+        "reportedAt": "2026-10-31T23:04:12+08:00",
         "location": {
           "lat": 25.181145,
           "lng": 121.419718333333,
@@ -19,7 +19,7 @@
       "raw": {
         "lineid": "251003",
         "car": "KEU-3217",
-        "time": "2026/10/31 23:02:43",
+        "time": "2026/10/31 23:04:12",
         "location": "新北市淡水區中正路二段18號",
         "longitude": "121.419718333333",
         "latitude": "25.181145",
