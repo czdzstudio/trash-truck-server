@@ -2,29 +2,73 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-11-02T22:24:32.828Z",
+  "fetchedAt": "2026-11-03T03:36:21.818Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "232013",
-        "plateNumber": "291-BY",
-        "reportedAt": "2026-11-03T06:23:41+08:00",
+        "lineId": "234001",
+        "plateNumber": "KEU-6110",
+        "reportedAt": "2026-11-03T11:34:59+08:00",
         "location": {
-          "lat": 24.9095233333333,
-          "lng": 121.718156666667,
-          "address": "新北市坪林區北宜路八段558號"
+          "lat": 25.0100133333333,
+          "lng": 121.526333333333,
+          "address": "新北市永和區福和路1號"
         }
       },
       "raw": {
-        "lineid": "232013",
-        "car": "291-BY",
-        "time": "2026/11/03 06:23:41",
-        "location": "新北市坪林區北宜路八段558號",
-        "longitude": "121.718156666667",
-        "latitude": "24.9095233333333",
-        "cityid": "6502000",
-        "cityname": "坪林區"
+        "lineid": "234001",
+        "car": "KEU-6110",
+        "time": "2026/11/03 11:34:59",
+        "location": "新北市永和區福和路1號",
+        "longitude": "121.526333333333",
+        "latitude": "25.0100133333333",
+        "cityid": "6500400",
+        "cityname": "永和區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "247003",
+        "plateNumber": "KEJ-3259",
+        "reportedAt": "2026-11-03T11:34:50+08:00",
+        "location": {
+          "lat": 25.08065,
+          "lng": 121.449363333333,
+          "address": "新北市五股區中興路三段3-2號"
+        }
+      },
+      "raw": {
+        "lineid": "247003",
+        "car": "KEJ-3259",
+        "time": "2026/11/03 11:34:50",
+        "location": "新北市五股區中興路三段3-2號",
+        "longitude": "121.449363333333",
+        "latitude": "25.08065",
+        "cityid": "6501400",
+        "cityname": "蘆洲區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "227004",
+        "plateNumber": "KEU-5212",
+        "reportedAt": "2026-11-03T11:34:51+08:00",
+        "location": {
+          "lat": 25.032305,
+          "lng": 121.867901666667,
+          "address": "新北市雙溪區共和里東榮街56號"
+        }
+      },
+      "raw": {
+        "lineid": "227004",
+        "car": "KEU-5212",
+        "time": "2026/11/03 11:34:51",
+        "location": "新北市雙溪區共和里東榮街56號",
+        "longitude": "121.867901666667",
+        "latitude": "25.032305",
+        "cityid": "6502500",
+        "cityname": "雙溪區"
       }
     }
   ]
