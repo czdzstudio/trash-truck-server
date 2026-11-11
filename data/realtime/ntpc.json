@@ -2,51 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-11-11T06:55:45.742Z",
+  "fetchedAt": "2026-11-11T14:56:36.406Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "251015",
-        "plateNumber": "KEA-2871",
-        "reportedAt": "2026-11-10T22:54:54+08:00",
+        "lineId": "224011",
+        "plateNumber": "BWM-8121",
+        "reportedAt": "2026-11-11T20:39:15+08:00",
         "location": {
-          "lat": 25.1810966666667,
-          "lng": 121.41971,
-          "address": "新北市淡水區中正路二段18號"
+          "lat": 25.1084833333333,
+          "lng": 121.809508333333,
+          "address": "新北市瑞芳區逢甲路17號"
         }
       },
       "raw": {
-        "lineid": "251015",
-        "car": "KEA-2871",
-        "time": "2026/11/10 22:54:54",
-        "location": "新北市淡水區中正路二段18號",
-        "longitude": "121.41971",
-        "latitude": "25.1810966666667",
-        "cityid": "6501000",
-        "cityname": "淡水區"
-      }
-    },
-    {
-      "normalized": {
-        "lineId": "251008",
-        "plateNumber": "179-VK",
-        "reportedAt": "2026-11-10T22:54:54+08:00",
-        "location": {
-          "lat": 25.183805,
-          "lng": 121.420401666667,
-          "address": "新北市淡水區淡海路176號"
-        }
-      },
-      "raw": {
-        "lineid": "251008",
-        "car": "179-VK",
-        "time": "2026/11/10 22:54:54",
-        "location": "新北市淡水區淡海路176號",
-        "longitude": "121.420401666667",
-        "latitude": "25.183805",
-        "cityid": "6501000",
-        "cityname": "淡水區"
+        "lineid": "224011",
+        "car": "BWM-8121",
+        "time": "2026/11/11 20:39:15",
+        "location": "新北市瑞芳區逢甲路17號",
+        "longitude": "121.809508333333",
+        "latitude": "25.1084833333333",
+        "cityid": "6501200",
+        "cityname": "瑞芳區"
       }
     }
   ]
