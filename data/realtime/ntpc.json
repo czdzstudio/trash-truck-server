@@ -2,29 +2,51 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-11-23T17:38:46.930Z",
+  "fetchedAt": "2026-11-24T03:50:33.803Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "251003",
-        "plateNumber": "KEU-3217",
-        "reportedAt": "2026-11-23T22:57:33+08:00",
+        "lineId": "247003",
+        "plateNumber": "KEJ-3259",
+        "reportedAt": "2026-11-24T11:48:59+08:00",
         "location": {
-          "lat": 25.1811633333333,
-          "lng": 121.419685,
-          "address": "新北市淡水區中正路二段18號"
+          "lat": 25.081005,
+          "lng": 121.449026666667,
+          "address": "新北市五股區中興路三段2巷10號"
         }
       },
       "raw": {
-        "lineid": "251003",
-        "car": "KEU-3217",
-        "time": "2026/11/23 22:57:33",
-        "location": "新北市淡水區中正路二段18號",
-        "longitude": "121.419685",
-        "latitude": "25.1811633333333",
-        "cityid": "6501000",
-        "cityname": "淡水區"
+        "lineid": "247003",
+        "car": "KEJ-3259",
+        "time": "2026/11/24 11:48:59",
+        "location": "新北市五股區中興路三段2巷10號",
+        "longitude": "121.449026666667",
+        "latitude": "25.081005",
+        "cityid": "6501400",
+        "cityname": "蘆洲區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "227004",
+        "plateNumber": "030-BX",
+        "reportedAt": "2026-11-24T11:49:14+08:00",
+        "location": {
+          "lat": 25.0261533333333,
+          "lng": 121.89133,
+          "address": "新北市雙溪區魚行里內厝6號"
+        }
+      },
+      "raw": {
+        "lineid": "227004",
+        "car": "030-BX",
+        "time": "2026/11/24 11:49:14",
+        "location": "新北市雙溪區魚行里內厝6號",
+        "longitude": "121.89133",
+        "latitude": "25.0261533333333",
+        "cityid": "6502500",
+        "cityname": "雙溪區"
       }
     }
   ]
