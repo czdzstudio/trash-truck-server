@@ -2,29 +2,29 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-11-24T23:45:32.994Z",
+  "fetchedAt": "2026-11-25T07:10:08.203Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "241002",
-        "plateNumber": "KEA-2209",
-        "reportedAt": "2026-11-25T07:29:35+08:00",
+        "lineId": "234066",
+        "plateNumber": "AAC-212",
+        "reportedAt": "2026-11-25T13:04:50+08:00",
         "location": {
-          "lat": 25.0674266666667,
-          "lng": 121.487358333333,
-          "address": "新北市三重區力行路一段63號"
+          "lat": 24.9972516666667,
+          "lng": 121.523838333333,
+          "address": "新北市永和區四維街103巷14號"
         }
       },
       "raw": {
-        "lineid": "241002",
-        "car": "KEA-2209",
-        "time": "2026/11/25 07:29:35",
-        "location": "新北市三重區力行路一段63號",
-        "longitude": "121.487358333333",
-        "latitude": "25.0674266666667",
-        "cityid": "6500200",
-        "cityname": "三重區"
+        "lineid": "234066",
+        "car": "AAC-212",
+        "time": "2026/11/25 13:04:50",
+        "location": "新北市永和區四維街103巷14號",
+        "longitude": "121.523838333333",
+        "latitude": "24.9972516666667",
+        "cityid": "6500400",
+        "cityname": "永和區"
       }
     }
   ]
