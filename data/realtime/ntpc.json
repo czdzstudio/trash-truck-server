@@ -2,29 +2,73 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-11-26T19:46:11.908Z",
+  "fetchedAt": "2026-11-27T02:40:00.338Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "235035",
-        "plateNumber": "647-TV",
-        "reportedAt": "2026-11-26T23:59:40+08:00",
+        "lineId": "231007",
+        "plateNumber": "110-UY",
+        "reportedAt": "2026-11-27T10:06:09+08:00",
         "location": {
-          "lat": 24.95797,
-          "lng": 121.500356666667,
-          "address": "新北市新店區薏仁坑路6號"
+          "lat": 24.9253516666667,
+          "lng": 121.52086,
+          "address": "新北市新店區新潭路二段61-1號"
         }
       },
       "raw": {
-        "lineid": "235035",
-        "car": "647-TV",
-        "time": "2026/11/26 23:59:40",
-        "location": "新北市新店區薏仁坑路6號",
-        "longitude": "121.500356666667",
-        "latitude": "24.95797",
-        "cityid": "6500300",
-        "cityname": "中和區"
+        "lineid": "231007",
+        "car": "110-UY",
+        "time": "2026/11/27 10:06:09",
+        "location": "新北市新店區新潭路二段61-1號",
+        "longitude": "121.52086",
+        "latitude": "24.9253516666667",
+        "cityid": "6500600",
+        "cityname": "新店區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "227003",
+        "plateNumber": "KEU-5212",
+        "reportedAt": "2026-11-27T10:06:13+08:00",
+        "location": {
+          "lat": 24.9271483333333,
+          "lng": 121.815871666667,
+          "address": "新北市雙溪區泰平里烏山路27-1號"
+        }
+      },
+      "raw": {
+        "lineid": "227003",
+        "car": "KEU-5212",
+        "time": "2026/11/27 10:06:13",
+        "location": "新北市雙溪區泰平里烏山路27-1號",
+        "longitude": "121.815871666667",
+        "latitude": "24.9271483333333",
+        "cityid": "6502500",
+        "cityname": "雙溪區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "220091",
+        "plateNumber": "245-BX",
+        "reportedAt": "2026-11-27T10:06:21+08:00",
+        "location": {
+          "lat": 24.984455,
+          "lng": 121.425738333333,
+          "address": "新北市樹林區中華路1-6號"
+        }
+      },
+      "raw": {
+        "lineid": "220091",
+        "car": "245-BX",
+        "time": "2026/11/27 10:06:21",
+        "location": "新北市樹林區中華路1-6號",
+        "longitude": "121.425738333333",
+        "latitude": "24.984455",
+        "cityid": "6500100",
+        "cityname": "板橋區"
       }
     }
   ]
