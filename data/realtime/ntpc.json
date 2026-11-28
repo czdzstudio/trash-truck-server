@@ -2,29 +2,51 @@
   "city": "ntpc",
   "cityName": "新北市",
   "tier": 1,
-  "fetchedAt": "2026-11-27T20:43:22.039Z",
+  "fetchedAt": "2026-11-28T03:05:25.570Z",
   "sourceUpdatedAt": null,
   "vehicles": [
     {
       "normalized": {
-        "lineId": "235035",
-        "plateNumber": "647-TV",
-        "reportedAt": "2026-11-27T23:39:36+08:00",
+        "lineId": "244005",
+        "plateNumber": "KEV-0025",
+        "reportedAt": "2026-11-28T11:04:13+08:00",
         "location": {
-          "lat": 24.9889233333333,
-          "lng": 121.51185,
-          "address": "新北市中和區景新街410巷17-2號"
+          "lat": 25.0907483333333,
+          "lng": 121.405173333333,
+          "address": "新北市林口區粉寮路二段160巷28號"
         }
       },
       "raw": {
-        "lineid": "235035",
-        "car": "647-TV",
-        "time": "2026/11/27 23:39:36",
-        "location": "新北市中和區景新街410巷17-2號",
-        "longitude": "121.51185",
-        "latitude": "24.9889233333333",
-        "cityid": "6500300",
-        "cityname": "中和區"
+        "lineid": "244005",
+        "car": "KEV-0025",
+        "time": "2026/11/28 11:04:13",
+        "location": "新北市林口區粉寮路二段160巷28號",
+        "longitude": "121.405173333333",
+        "latitude": "25.0907483333333",
+        "cityid": "6501700",
+        "cityname": "林口區"
+      }
+    },
+    {
+      "normalized": {
+        "lineId": "227004",
+        "plateNumber": "KEU-5212",
+        "reportedAt": "2026-11-28T11:04:24+08:00",
+        "location": {
+          "lat": 25.0200683333333,
+          "lng": 121.87887,
+          "address": "新北市雙溪區魚行里坤溪1號"
+        }
+      },
+      "raw": {
+        "lineid": "227004",
+        "car": "KEU-5212",
+        "time": "2026/11/28 11:04:24",
+        "location": "新北市雙溪區魚行里坤溪1號",
+        "longitude": "121.87887",
+        "latitude": "25.0200683333333",
+        "cityid": "6502500",
+        "cityname": "雙溪區"
       }
     }
   ]
